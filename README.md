@@ -39,6 +39,7 @@ my_project/
     │   ├── recipe.js
     │   └── create_post.js
     └── images/
+<img width="787" alt="image" src="https://github.com/WebProgrammingStudioSem124/ProjectWebsite2024/assets/152080640/17dd087a-eded-4f03-ba27-9a586a732e5d">
 
 The views directory contains EJS templates. The partials subdirectory contains reusable components like navbar.ejs and footer.ejs.
 
