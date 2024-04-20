@@ -23,3 +23,6 @@ app.get('/login', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
+// Serve the static js and css files in public folder
+app.use(express.static('public'));
