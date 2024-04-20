@@ -30,5 +30,5 @@ Basically how the website will work is that it will run through nodeJS (index.js
   
   4. Open the website on the browser: `localhost:9000`.
 
-  6. Nodemon will update u with recent changes without having to restart the project (u can watch this video for more info: https://www.youtube.com/watch?v=SccSCuHhOw0). To run the nodemon: use `npm start`(if u only install nodemon locally (basically I did this)). 
+  6. Nodemon will update u with recent changes without having to restart the project (u can watch this video for more info: https://www.youtube.com/watch?v=SccSCuHhOw0). To run the nodemon: use `npm start`(if u only install nodemon locally (basically I did this instead of using node index.js)). 
   

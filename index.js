@@ -16,11 +16,11 @@ app.set('view engine', 'ejs');
 // Get the webpage
 app.get('/', (req, res) => {
   // Redirect to the homepage
-  res.redirect('/homepage');
+  res.render('homepage');
 });
 app.get('/login', (req, res) => {
   // Render the 'login' view
-  res.render('login');
+  res.render('login', {text: '2024'});
 });
 
 
