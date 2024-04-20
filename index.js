@@ -5,8 +5,9 @@ const port = 9000;
 // Set EJS as the view engine
 app.set('view engine', 'ejs');
 
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+app.get('/', (req, res) => {
+  // Redirect to the homepage
+  res.redirect('/homepage');
 });
 
 app.get('/homepage', (req, res) => {
@@ -15,7 +16,10 @@ app.get('/homepage', (req, res) => {
 });
 
 app.get('/login', (req, res) => {
-  // Render the 'homepage' view
+  // Render the 'login' view
   res.render('login');
 });
 
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
+});
