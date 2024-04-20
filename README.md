@@ -32,3 +32,13 @@ Basically how the website will work is that it will run through nodeJS (index.js
 
   6. Nodemon will update u with recent changes without having to restart the project (u can watch this video for more info: https://www.youtube.com/watch?v=SccSCuHhOw0). To run the nodemon: use `npm start`(if u only install nodemon locally (basically I did this instead of using node index.js)). 
   
+## FURTHER MIDDLEWARE
+<li><a href="http://expressjs.com/en/4x/api.html" target="_blank">Express API reference</a></li>
+<li>Middleware: <a href="https://github.com/expressjs/morgan" target="_blank">morgan</a>,
+<a href="https://github.com/expressjs/cookie-parser" target="_blank">cookie-parser</a>,
+<a href="https://github.com/expressjs/errorhandler" target="_blank">errorhandler</a>,
+<a href="https://github.com/expressjs/csurf" target="_blank">csurf</a>,
+<a href="https://github.com/expressjs/compression" target="_blank">compression</a>,
+<a href="https://www.npmjs.com/package/express-session" target="_blank">express-session</a>
+</li>
+<li><a href="https://expressjs.com/en/starter/generator.html" target="_blank">Express application generator</a></li>
