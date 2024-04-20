@@ -4,41 +4,7 @@ This is a recipe website's repository.
 # Language Used
 
 # File Structure
-my_project/
-├── README.md
-├── .gitignore
-├── package.json
-├── index.js (nodejs to host the site)
-├── views/
-│   ├── partials/
-│   │   ├── navbar.ejs (later we'll add these into our webpage)
-│   │   └── footer.ejs
-│   ├── homepage.ejs *(the mainpage of the website)*
-│   ├── login.ejs 
-│   ├── register.ejs
-│   ├── profile.ejs *(the user profile page)*
-│   ├── search_result.ejs *(When user search for a keyword/ recipe they will be taken to the search page)*
-│   ├── recipe.ejs (The recipe's post page allows user to view the post)
-│   └── create_post.ejs (The create post page allows to create their own post)
-└── public/
-    ├── css/
-    │   ├── common.css
-    │   ├── homepage.css
-    │   ├── login.css
-    │   ├── register.css
-    │   ├── profile.css
-    │   ├── search.css
-    │   ├── recipe.css
-    │   └── create_post.css
-    ├── js/
-    │   ├── homepage.js
-    │   ├── login.js
-    │   ├── register.js
-    │   ├── profile.js
-    │   ├── search.js
-    │   ├── recipe.js
-    │   └── create_post.js
-    └── images/
+
 <img width="787" alt="image" src="https://github.com/WebProgrammingStudioSem124/ProjectWebsite2024/assets/152080640/17dd087a-eded-4f03-ba27-9a586a732e5d">
 
 The views directory contains EJS templates. The partials subdirectory contains reusable components like navbar.ejs and footer.ejs.
