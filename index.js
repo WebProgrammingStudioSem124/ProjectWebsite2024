@@ -34,3 +34,23 @@ app.get('/login', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
+
+// Missing: some middleware and routes folder: 
+// Install middleware (First installed middleware then add those)
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
+var createError = require('http-errors');
+
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+// Routes file accessed
+// Create routes folder
+// Include these in index.js
+var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/users');
+
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
