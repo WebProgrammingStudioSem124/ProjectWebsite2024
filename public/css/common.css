@@ -1,0 +1,70 @@
+/* Global CSS */
+/* Declaring color */
+:root {
+  --primary-color: #E83A5A;
+  --secondary-color: #F0D43A;
+  --accent-color: #700000;
+}
+/* Adding Fonts */
+
+
+/* Font */
+
+/* other CSS */
+a{
+  text-decoration: none;
+  font-style: none;
+  color: inherit;
+}
+body {
+  padding-top: 100px; 
+}
+/* CSS FOR NAVBAR FILE */
+/* CSS for the logotext color */
+.logo-text {
+  background: -webkit-linear-gradient(45deg, #F0D43A, #E73959, #666666);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* CSS for sign up and log in button  */
+.login-link, .signup-link{
+  border: 2px solid var(--primary-color);
+  
+}
+
+.login-link{
+  background-color: rgba(232, 58, 90, 0.1);
+  color: #E83A5A;
+}
+
+.signup-link{
+  background-color: var(--primary-color);
+  color: white;
+}
+
+  .login-link:hover {
+    transition-duration: 500ms;
+    background-color: #E83A5A; 
+    color: white; 
+    border: 2px solid var(--primary-color);
+  }
+
+  .signup-link:hover {
+    transition-duration: 500ms;
+    background-color: white; 
+    color: var(--primary-color); 
+    border: 2px solid var(--primary-color);
+  }
+
+/* CSS for the search bar and option */
+.input-group{
+  width: 450px;
+  
+}
+.search-button:hover{
+  transition-duration: 500ms;
+  /* Learning to add image to cursor */
+  cursor: url('logo1.png'), auto;
+}
